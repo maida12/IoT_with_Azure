@@ -6,7 +6,7 @@ from azure.iot.device.aio import IoTHubDeviceClient
 from azure.iot.device import Message
 
 # Define the connection string
-CONNECTION_STRING = "HostName=MaidaHub.azure-devices.net;DeviceId=virtualdev1;SharedAccessKey=OwFIOZPx1mBOkWwEnggBg9zJl+W6/G7D5AIoTA/migg="
+CONNECTION_STRING = ""
 
 async def connect():
     device_client = IoTHubDeviceClient.create_from_connection_string(CONNECTION_STRING)
